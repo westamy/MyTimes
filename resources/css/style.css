@@ -1,19 +1,19 @@
 nav {
   display: inline-block;
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
   flex-wrap: wrap;
   padding-right: 40px;
+  padding-top: 20px;
   }
 
-span {
-  padding: 20 10;
-}
+  nav.span {
+    display: inline-block;
+    padding-right: 20px;
+    }
 
 .logo {
     color: MediumAquamarine;
     padding-left: 30px;
+    padding-bottom: 10px;
     align-items: center;
     display: flex;
     flex-grow: 1;
@@ -25,4 +25,32 @@ header {
   position: fixed;
   border-bottom: 1px solid black;
   width: 100%;
+  z-index: 1;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: white;
   }
+
+.content {
+  display: flex;
+  padding-top: 116px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column.large {
+  width: 630px;
+  border: 1px solid black;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
