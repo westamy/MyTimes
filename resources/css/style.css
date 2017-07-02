@@ -1,27 +1,35 @@
 nav {
   display: inline-block;
   flex-wrap: wrap;
-  padding-right: 40px;
-  padding-top: 20px;
+  padding-right: 80px;
   }
 
-  nav.span {
-    display: inline-block;
-    padding-right: 20px;
-    }
+  nav span {
+    display: inline-block;
+    padding: 20px 10px;
+  }
 
 .logo {
-    color: MediumAquamarine;
     padding-left: 30px;
-    padding-bottom: 10px;
     align-items: center;
     display: flex;
     flex-grow: 1;
     border: 1px solid black;
     }
 
+.logo img {
+      width: 70px;
+      height: 60px;
+      margin-right: 12px;
+    }
+
+.logo span {
+  color: mediumaquamarine;
+}
+
 header {
   display: flex;
+  align-items: center;
   height: 80 px;
   position: fixed;
   border-bottom: 1px solid black;
@@ -32,6 +40,13 @@ header {
   font-weight: bold;
   background-color: white;
   }
+
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+  font-size: 17px;
+  color: black;
+}
 
 .content {
   display: flex;
@@ -47,6 +62,7 @@ header {
   width: 630px;
   border: 1px solid black;
   padding-right: 30px;
+  padding-left: 30px;
 }
 
 .column.medium {
@@ -66,9 +82,14 @@ header {
 }
 .phish {
   border: 1px solid black;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  height: 300px;
+  text-align: center;
 }
+
 .trees {
   border: 1px solid black;
+  background image: url ("../images/img-story-2.png");
 }
 .camera {
   border: 1px solid black;
@@ -82,4 +103,9 @@ header {
 
 .news.bites{
   border: 1px solid black;
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
 }
