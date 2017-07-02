@@ -17,6 +17,7 @@ nav {
     align-items: center;
     display: flex;
     flex-grow: 1;
+    border: 1px solid black;
     }
 
 header {
@@ -45,12 +46,40 @@ header {
 .column.large {
   width: 630px;
   border: 1px solid black;
+  padding-right: 30px;
 }
 
 .column.medium {
   width: 300px;
+  border: 1px solid black;
+  padding-right: 30px;
 }
 
 .column.small {
   width: 240px;
+  border: 1px solid black;
+  padding-right: 30px;
+}
+
+.main.story {
+  border: 1px solid black;
+}
+.phish {
+  border: 1px solid black;
+}
+.trees {
+  border: 1px solid black;
+}
+.camera {
+  border: 1px solid black;
+}
+.story {
+  border: 1px solid black;
+}
+.cat {
+  border: 1px solid black;
+}
+
+.news.bites{
+  border: 1px solid black;
 }
